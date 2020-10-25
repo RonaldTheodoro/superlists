@@ -9,5 +9,9 @@ verify_ssl = true
 django = "*"
 selenium = "*"
 
+[scripts]
+runserver = "python manage.py runserver"
+functional_tests = "python functional_tests.py"
+
 [requires]
 python_version = "3.9"
