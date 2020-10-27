@@ -11,6 +11,7 @@ selenium = "*"
 
 [scripts]
 runserver = "python manage.py runserver"
+test = "python manage.py test"
 functional_tests = "python functional_tests.py"
 
 [requires]
